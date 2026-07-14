@@ -1,0 +1,24 @@
+Sliding Windows -
+	Imagine you have a window that covers some part of an array or string.
+Instead of recalculating everything every time, you slide the window one element at a time while updating only what changes.
+
+When should you think about Sliding Window - 
+Subarray, Substring, Continuous, Consecutive, Window, Longest, Shortest, Maximum, Minimum.
+
+There are TWO types -
+	Fixed Size Window
+	Variable Size Window
+
+Template - 
+left = 0
+for right in range(len(nums)):
+
+    # Expand window
+
+    while window is invalid:
+
+        # Shrink window
+
+        left += 1
+
+    answer = max(answer, right-left+1)
